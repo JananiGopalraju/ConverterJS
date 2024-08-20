@@ -24,11 +24,39 @@ h1 {
     padding: 5px 25px;
     margin: 10px;
     font-size: larger;
-    background-color: rgb(155, 121, 187);
+    font-weight: 600;
+    background-color: rgb(146, 111, 179);
     color: white;
 }
-
+ #convert:hover{
+    background-color: rgb(141, 103, 178); 
+ }
+ 
 #result {
-font-size: 2em;
-margin: 10px;
+    font-size: 2em;
+    margin: 10px;
+}
+
+@media (max-width: 600px) {
+    #container {
+        padding: 20px; 
+        margin: 4em auto; 
+        width: 76%; 
+    }
+
+    #input {
+        padding: 8px; 
+        font-size: medium; 
+        margin: 5px; 
+    }
+
+    #convert {
+        padding: 8px 20px; 
+        font-size: medium; 
+    }
+
+    #result {
+        font-size: 1.5em;
+        margin: 5px; 
+    }
 }
